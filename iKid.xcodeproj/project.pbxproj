@@ -15,6 +15,8 @@
 		F6FC5F2D281F306900781E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FC5F2B281F306900781E14 /* LaunchScreen.storyboard */; };
 		F6FC5F362820920400781E14 /* IMG_9737.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FC5F342820920300781E14 /* IMG_9737.png */; };
 		F6FC5F372820920400781E14 /* IMG_9736.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FC5F352820920400781E14 /* IMG_9736.png */; };
+		F6FC5F39282491F400781E14 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC5F38282491F400781E14 /* GoodViewController.swift */; };
+		F6FC5F3B282498FC00781E14 /* GoodControllerShow1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC5F3A282498FC00781E14 /* GoodControllerShow1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F6FC5F2E281F306900781E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6FC5F342820920300781E14 /* IMG_9737.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = IMG_9737.png; sourceTree = "<group>"; };
 		F6FC5F352820920400781E14 /* IMG_9736.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = IMG_9736.png; sourceTree = "<group>"; };
+		F6FC5F38282491F400781E14 /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		F6FC5F3A282498FC00781E14 /* GoodControllerShow1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodControllerShow1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				F6FC5F29281F306900781E14 /* Assets.xcassets */,
 				F6FC5F2B281F306900781E14 /* LaunchScreen.storyboard */,
 				F6FC5F2E281F306900781E14 /* Info.plist */,
+				F6FC5F38282491F400781E14 /* GoodViewController.swift */,
+				F6FC5F3A282498FC00781E14 /* GoodControllerShow1.swift */,
 			);
 			path = iKid;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			files = (
 				F6FC5F25281F306400781E14 /* ViewController.swift in Sources */,
 				F6FC5F21281F306400781E14 /* AppDelegate.swift in Sources */,
+				F6FC5F3B282498FC00781E14 /* GoodControllerShow1.swift in Sources */,
 				F6FC5F23281F306400781E14 /* SceneDelegate.swift in Sources */,
+				F6FC5F39282491F400781E14 /* GoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8Q98UZKGG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iKid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -322,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8Q98UZKGG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iKid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
